@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+      <h1>Conversor Real</h1>
+      <input type="text" id="txtConversorReal"/>
+      
+      <button class= "btn" id="btnReal" onclick="converter(this)"></button>
+
+      <button id="butnLimpar" onclick="limparReal(this)"></button>
+      <p  class="conversor" id="conversaoreal"></p>
+   
+      <h1>Conversor Dólar</h1>
+      <input type="text" id="txtConversorDol"></input>
+
+      <button class="btn" id="btnDol" onclick="converterdol(this)"></button>
+
+      <button id ="btnLimpar" onclick="limparDolar(this)"></button>
+      <p class="conversor" id="conversaodol"></p>
+
+      <h1>Conversor Euro</h1>
+      <input type="text" id="txtConversorEur"></input>
+
+      <button class="btn" id="btnEur" onclick="convertereur(this)"></button>
+
+      <button id ="btnLimpar" onclick="limparEuro(this)"></button>
+      <p class="conversor" id ="conversaoeur"></p>
+
+      
+</div>
+     
+    
+   
+</body>
+<script src="./js/index.js"></script>
+</html>
